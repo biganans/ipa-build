@@ -29,7 +29,7 @@ how to use?  怎样使用
  * 等啊等啊等，没有错误输出并显示：Congratulations iap is ok!! 就可以愉快的玩耍吧。 <br>
         wait,wait,at last,output:"Congratulations iap is ok!!",enjoy youself.
 
-感激
+Thanks 感激
 ----------
   ccf <br>
   KINET
