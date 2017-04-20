@@ -24,6 +24,7 @@ how to use?  怎样使用
         open mac terminal,make the directory permission is -x or 777,you can use this command: <br>
         
         $ cd xcodeproject_directory 
+        
         $ sudo chmod -R 777 ./ 
         
         then,use the fllow command.
