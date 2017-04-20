@@ -21,7 +21,10 @@ how to use?  怎样使用
     *  xcodeproj: xcode项目的名字 比如game.xcodeproj这里使用game <br>
         xcodeproj: like game.xcodeproj is game
     *  ipa-build: 参数类型说明-c (Debug or Release) -m (model 0:developer 1:Distribution 2:enterprise) <br>
-        open mac terminal,make the directory permission is -x or 777,you can use this command: cd xcodeproject_directory sudo chmod -R 777 ./ then,use the fllow command.
+        open mac terminal,make the directory permission is -x or 777,you can use this command: <br>
+        cd xcodeproject_directory <br>
+        sudo chmod -R 777 ./ <br>
+        then,use the fllow command.
         <br><br>sh APP_Build_Distribution.sh
  * 等啊等啊等，没有错误输出并显示：Congratulations iap is ok!! 就可以愉快的玩耍吧。 <br>
         wait,wait,at last,output:"Congratulations iap is ok!!",enjoy youself.
