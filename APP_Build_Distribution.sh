@@ -11,4 +11,3 @@ xcodeproj=GAME
 #默认为develop的测试包 1 app发布包 2企业签名包
 ./ipa-build ./ -c Release -o ${out_path} -t $target -b $xcodeproj -m 1
 
-tar -zcvf ${out_path}/$(date +"%Y%m%d%H%M")_${target}.app.dSYM.tar.gz ./build/Release-iphoneos/${target}.app.dSYM
