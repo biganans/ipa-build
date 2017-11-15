@@ -6,5 +6,18 @@
 	<false/>
 	<key>method</key>
 	<string>development</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.xx.app</key>
+		<string>mobileprovisionUUID</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>iPhone Developer</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
 </dict>
 </plist>
