@@ -48,8 +48,11 @@ how to use?  怎样使用
 
 About Xcode9 Build
 ----------    
- * 修改对应的build_option.plist，可以使用archive编译，得到对应的list参数ExportOptions.plist，增加了几个字段：provisioningProfiles、signingCertificate、signingStyle、thinning   
-    Fix project build_option.plist,you can bulid with archive model,then get the ExportOptions.plist,you will find list more property  in this time with xcode9 With these changes :provisioningProfiles、signingCertificate、signingStyle.   
+ * 修改对应的build_option.plist，可以使用archive编译，得到对应的list参数ExportOptions.plist，增加了几个字段：
+ ```
+ provisioningProfiles、signingCertificate、signingStyle、thinning   
+ ```
+ Fix project build_option.plist,you can bulid with archive model,then get the ExportOptions.plist,you will find list more property  in this time with xcode9 With these changes :provisioningProfiles、signingCertificate、signingStyle.   
     
  * provisioningProfiles:对应打包描述文件的UUID   
  ```
